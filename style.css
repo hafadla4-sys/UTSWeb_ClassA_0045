@@ -303,3 +303,57 @@ footer{
 .booster-info p{
     color: #666;
 }
+#testi{
+    padding: 80px 8%;
+    background: #0f172a;
+    color: white;
+}
+
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonial-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    background: #1e293b;
+    border-left: 5px solid gold;
+    border-radius: 15px;
+
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.testimonial-text{
+    flex: 1;
+}
+
+.testimonial-text p{
+    font-size: 20px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+.testimonial-text h3{
+    margin-top: 20px;
+    color: gold;
+}
+
+.testimonial-text span{
+    color: #cbd5e1;
+}
+
+.testimonial-card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 5px solid gold;
+    box-shadow: 0 0 20px rgba(255,215,0,0.4);
+}
