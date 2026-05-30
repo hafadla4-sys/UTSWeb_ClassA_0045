@@ -258,4 +258,48 @@ footer{
     line-height: 1.8;
     text-align: justify;
 }
+#boosters{
+    padding: 80px 8%;
+    background: #f5f5f5;
+}
 
+.booster-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.booster-card{
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.booster-card:hover{
+    transform: translateY(-8px);
+}
+
+.booster-card img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+}
+
+.booster-info{
+    text-align: center;
+    padding: 20px;
+}
+
+.booster-info h3{
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.booster-info p{
+    color: #666;
+}
