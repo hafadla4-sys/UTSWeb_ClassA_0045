@@ -1,3 +1,5 @@
+// FAQ Toggle
+
 const faqQuestion =
 document.querySelectorAll(".faq-question");
 
@@ -22,6 +24,8 @@ faqQuestion.forEach(item => {
 
 });
 
+
+// Form Submit
 
 const form =
 document.getElementById("contactForm");
