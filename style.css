@@ -1,3 +1,24 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+     url("https://assets.promediateknologi.id/crop/0x0:0x0/x/photo/p3/75/2025/10/07/SnapInstato_532574133_18047012642633888_4326027632943438780_n-2336380698.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 *{
     margin:0;
     padding:0;
@@ -237,3 +258,4 @@ footer{
     line-height: 1.8;
     text-align: justify;
 }
+
